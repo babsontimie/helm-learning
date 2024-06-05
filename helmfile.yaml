@@ -1,5 +1,8 @@
 ---
+repositories:
+  - name: my-github-repo
+    url: "https://raw.githubusercontent.com/babsontimie/helm-learning/master/python-helm-restapi-project"
 releases:
   - name: python-restapi-helm-release
-    chart: ./python-helm-restapi-project
-    installed: false
+    chart: "https://raw.githubusercontent.com/babsontimie/helm-learning/master/python-helm-restapi-project/your-chart-name-0.1.0.tgz"
+    installed: true
