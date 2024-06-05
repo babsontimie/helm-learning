@@ -2,7 +2,7 @@
 repositories:
   - name: my-github-repo
 #    url: "https://raw.githubusercontent.com/babsontimie/helm-learning/master/python-helm-restapi-project"
-    url: "https://github.com/babsontimie/helm-learning/master/python-helm-restapi-project"    
+    url: "https://github.com/babsontimie/helm-learning/tree/master/python-helm-restapi-project"    
 releases:
   - name: python-restapi-helm-release
     chart: my-github-repo/python-helm-restapi-project
